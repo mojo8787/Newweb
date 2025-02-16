@@ -2,6 +2,7 @@ import React from "react";
 import ParticleBackground from "./hero/ParticleBackground";
 import HeroContent from "./hero/HeroContent";
 import ContentSection from "./sections/ContentSection";
+import Navbar from "./layout/Navbar";
 import { motion } from "framer-motion";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
     >
       {/* Particle Background */}
       <ParticleBackground />
+      <Navbar />
 
       {/* Hero Section */}
       <section className="relative min-h-screen w-full flex items-center justify-center">
